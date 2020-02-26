@@ -1,4 +1,5 @@
 <head>
+<title>ictg.github.io | ictg</title>
 <style>
 img {
   border-radius: 50%;
