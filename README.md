@@ -1,5 +1,5 @@
 <head>
-<title>ictg.github.io | ictg</title>
+<title>b.sly.io</title>
 <style>
 img {
   border-radius: 50%;
