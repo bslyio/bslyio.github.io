@@ -1,5 +1,5 @@
 <title>b.sly.io</title>
-<h1><a href="https://ictg.github.io/">ictg.github.io</a></h1>
+<h1><a href="http://b.sly.io/">b.sly.io</a></h1>
 <head>
 <style>
 img {
