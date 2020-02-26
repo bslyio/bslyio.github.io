@@ -1,5 +1,5 @@
-<head>
 <title>b.sly.io</title>
+<head>
 <style>
 img {
   border-radius: 50%;
