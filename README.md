@@ -1,4 +1,3 @@
-<title>b.sly.io</title>
 <h1><a href="http://b.sly.io/">b.sly.io</a></h1>
 <head>
 <style>
