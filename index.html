@@ -22,44 +22,36 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
 <style>
-  
-<!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159311095-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-159311095-1');
 </script>
- 
 body,h1,h2,h3,h4,h5,h6 {font-family: "Ubuntu", Ubuntu}
-
 body, html {
   height: 100%;
   line-height: 1.8;
 }
-
-/* Full height image header */
+/* Header Style*/
 .bgimg-1 {
   background-position: center;
   background-size: cover;
   background-image: url("/b.sly.io.gif");
   min-height: 100%;
 }
-
 .w3-bar .w3-button {
   padding: 16px;
 }
 </style>
 <body>
-
-<!-- Navbar (sit on top) -->
+<!-- Navbar -->
   <div class="w3-top">
   <div class="w3-bar w3-white w3-card" id="myNavbar">
     <a href="#home" class="w3-bar-item w3-button w3-wide">b.sly</a>
@@ -70,23 +62,19 @@ body, html {
       <a href="#work" class="w3-bar-item w3-button">Work</a>
       <a href="#contact" class="w3-bar-item w3-button">Contact</a>
     </div>
-    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
-
     <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
       <i class="fa fa-bars"></i>
     </a>
    </div>
   </div>
-
-<!-- Sidebar on small screens when clicking the menu icon -->
+<!-- Sidebar small screens if clicking menu icon -->
 <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
   <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
   <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
   <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
 </nav>
-
-<!-- Header with full-height image -->
+<!-- Header -->
 <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
   <div class="w3-display-left w3-text-black" style="padding:64px">
     <span class="w3-jumbo w3-hide-small">Change Everything | be sly</span><br>
@@ -103,8 +91,7 @@ body, html {
     <i class="fa fa-linkedin w3-hover-opacity"></i>
   </div>
 </header>
-
-<!-- About Section -->
+<!-- About -->
 <div class="w3-container w3-indigo" style="padding:64px 16px" id="about">
   <h3 class="w3-center">ABOUT b.sly</h3>
   <p class="w3-center w3-large">Webdesign & SEO | Eric Lee</p>
@@ -114,7 +101,7 @@ body, html {
   </div>
 </div>
 </div>
-<!-- Promo Section "Statistics" -->
+<!-- Promo -->
 <div class="w3-container w3-row w3-center w3-dark-grey w3-padding-32">
   <div class="w3-quarter">
     <span class="w3-xxlarge">7</span>
@@ -133,12 +120,10 @@ body, html {
     <br>Meetings
   </div>
 </div>
-
-<!-- Work Section -->
+<!-- Work -->
 <div class="w3-container w3-center w3-light-grey" style="padding:64px 16px" id="work">
   <h3 class="w3-center">OUR WORK</h3>
   <p class="w3-center w3-large">Some Examples</p>
-
   <div class="w3-row-padding" style="margin-top:64px">
     <div class="w3-container w3-half">
       <img src="b.sly-example-1.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="ictg.github.io">
@@ -170,8 +155,7 @@ body, html {
     <p id="caption" class="w3-opacity w3-large"></p>
   </div>
 </div>
-
-<!-- Skills Section -->
+<!-- Skills -->
 <div class="w3-container w3-padding-32">
   <div class="w3-row-padding">
     <div class="w3-col m6">
@@ -196,8 +180,7 @@ body, html {
     </div>
   </div>
 </div>
-
-<!-- Contact Section -->
+<!-- Contact -->
 <div class="w3-container w3-indigo" style="padding:64px 16px" id="contact">
   <h3 class="w3-center">CONTACT US</h3>
   <p class="w3-center w3-large">Lets Get In Touch. Tab A Link Below</p>
@@ -218,7 +201,6 @@ body, html {
   </div>
   <p>Copyright © 2020 b.sly | <strong><a href="https://ai.2ix.ch/legal">Legal</a></strong><a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green"></a></p>
 </footer>
- 
 <script>
 // Modal Image Gallery
 function onClick(element) {
@@ -227,10 +209,8 @@ function onClick(element) {
   var captionText = document.getElementById("caption");
   captionText.innerHTML = element.alt;
 }
-
-// Toggle between showing and hiding the sidebar when clicking the menu icon
+// Toggle sidebar if clicking menu icon
 var mySidebar = document.getElementById("mySidebar");
-
 function w3_open() {
   if (mySidebar.style.display === 'block') {
     mySidebar.style.display = 'none';
@@ -238,12 +218,10 @@ function w3_open() {
     mySidebar.style.display = 'block';
   }
 }
-
-// Close the sidebar with the close button
+// Close sidebar with close button
 function w3_close() {
     mySidebar.style.display = "none";
 }
 </script>
-
 </body>
 </html>
