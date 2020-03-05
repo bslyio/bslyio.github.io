@@ -1,40 +1,23 @@
-<!-- b.sly | be sly ONE -->
 <!DOCTYPE html>
+<!-- Template: b.sly ONE by Eric Lee-->
 <html>
-<title>b.sly.io | Be Sly</title>
+<title>b.sly.io</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
-    
-<!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-159311095-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-159311095-1');
-</script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-body {
-    font-family: 'Ubuntu';font-size: 22px;
-}
-</style>
-
-<style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Ubuntu", Ubuntu}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Ubuntu", ubuntu}
 body, html {
   height: 100%;
   line-height: 1.8;
 }
-/* Header Style*/
+/* FullHeightImageHeader */
 .bgimg-1 {
   background-position: center;
   background-size: cover;
-  background-image: url("/b.sly.gif");
+  background-image: url("/w3images/mac.jpg");
   min-height: 100%;
 }
 .w3-bar .w3-button {
@@ -42,99 +25,141 @@ body, html {
 }
 </style>
 <body>
-<!-- Navbar -->
+<!-- Navbar  -->
 <div class="w3-top">
-  <div class="w3-bar w3-transparent w3-card" id="myNavbar">
-      <strong><a href="https://bslyio.github.io/" class="w3-bar-item w3-button w3-wide">b.sly.io</a></strong>
-    <!-- Right-sided navbar links -->
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <strong><a href="#home" class="w3-bar-item w3-button w3-wide">b.sly.io</a></strong>
+    <!-- RightSidedNavbarLinks -->
     <div class="w3-right w3-hide-small">
-      <a href="#home" class="w3-bar-item w3-button">Home</a>
-      <a href="#about" class="w3-bar-item w3-button">About</a>
-      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i>Work</a>
-      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> Contact</a>
+      <a href="#home" class="w3-bar-item w3-button">HOME</a>
+      <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="#work" class="w3-bar-item w3-button">WORK</a>
+      <a href="#contact" class="w3-bar-item w3-button">CONTACT</a>
     </div>
-    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+    <!-- HideRightFloatedLinksOnSmallScreensAndReplaceThemWithMenuIcon -->
     <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
       <i class="fa fa-bars"></i>
     </a>
   </div>
 </div>
-
-<!-- Sidebar on small screens when clicking the menu icon -->
+<!-- SidebarOnSmallScreensWhenClickingTheMenuIcon -->
 <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-  <a href="#home" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
-  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
-  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">Work</a>
-  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">Contact</a>
-</nav>     
-<!-- Header -->
+<a href="#home" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
+<a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+<!-- HeaderWithFullHeightImage -->
 <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
-  <div class="w3-display-left w3-text-black" style="padding:32px">
-    <h1 style="font-family: Ubuntu; font-size:38pt"><strong>b.sly</strong></h1>
-    <h2 style="font-family: Ubuntu; font-size:24pt">Change Everything | Be Sly</h2>
-    <h3 style="font-family: Ubuntu; font-size:18pt"><strong>Video: <a href="https://youtu.be/tT1qVpWqWT4" target="_blank">b.sly</a></strong></h3>
-    <p><a href="#about" class="w3-button w3-black w3-padding-large w3-large w3-margin-top w3-hover-opacity-off">About b.sly</a></p>
-    <audio controls autoplay>
-    <source src="Black-Planet.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-    </audio>
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">b.sly</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">b.sly</span><br>
+    <span class="w3-large">Change Everything | Be Sly</span>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">ABOUT B.SLY</a></p>
+  </div> 
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
   </div>
 </header>
 <!-- About -->
-<div class="w3-container w3-indigo" style="padding:64px 16px" id="about">
-  <h3 class="w3-center">About b.sly</h3>
-  <p class="w3-center w3-large">Webdesign | SEO | Ai</p>
-  <div class="w3-row-padding w3-center" style="margin-top:20px">
-    <img src="/Eric-Lee.png" class="w3-circle "alt="Eric Lee" width="300" height="300" />
-  <p class="w3-center w3-large">MSc Eric Lee | CEO @ b.sly</p>
-    <p><a href="#work" class="w3-button w3-green w3-padding-large w3-large w3-margin-top w3-hover-opacity-off">View Our Work</a></p>
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">ABOUT THE COMPANY</h3>
+  <p class="w3-center w3-large">Key features of our company</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">Responsive</p>
+      <p>More Content Coming Soon. Visit Us Again, To See More Content At b.sly.io</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Passion</p>
+      <p>More Content Coming Soon. Visit Us Again, To See More Content At b.sly.io</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Design</p>
+      <p>More Content Coming Soon. Visit Us Again, To See More Content At b.sly.io</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Support</p>
+      <p>More Content Coming Soon. Visit Us Again, To See More Content At b.sly.io</p>
+    </div>
   </div>
 </div>
+<!-- PromoSection -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>We know design.</h3>
+      <p>More Content Coming Soon. Visit Us Again, To See More Content At b.sly.io</p>
+      <p><a href="#work" class="w3-button w3-black">VIEW OUR WORKS</a></p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image" src="/w3images/phone_buildings.jpg" alt="Buildings" width="700" height="394">
+    </div>
+  </div>
 </div>
-<!-- Promo -->
+<!-- PromoSectionStats" -->
 <div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
   <div class="w3-quarter">
-    <span class="w3-xxlarge">7</span>
+    <span class="w3-xxlarge">14+</span>
     <br>Partners
   </div>
   <div class="w3-quarter">
-    <span class="w3-xxlarge">33</span>
-    <br>Clients
+    <span class="w3-xxlarge">55+</span>
+    <br>Projects Done
   </div>
   <div class="w3-quarter">
-    <span class="w3-xxlarge">57</span>
-    <br>Projects
+    <span class="w3-xxlarge">89+</span>
+    <br>Happy Clients
   </div>
   <div class="w3-quarter">
-    <span class="w3-xxlarge">147</span>
-    <br>Leads
+    <span class="w3-xxlarge">150+</span>
+    <br>Meetings
   </div>
 </div>
-<h3 class="w3-center">Our Spirit</h3>
-<center><p>Simple As Possible</p></center>
-<center><p>Everything Is Possible</p></center>
-<center><p>Real Knowledge Is Experience</p></center>
-<center><p>It Is Up To Us</p></center>
-<!-- Work -->
-<div class="w3-container w3-center w3-light-grey" style="padding:64px 16px" id="work">
-  <h3 class="w3-center">Our Work</h3>
-  <div class="w3-row-padding" style="margin-top:16px">
-    <div class="w3-container w3-half">
-      <p><strong>Made With GitHub</a></strong></p>
-      <img src="b.sly-example-1.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="ictg.github.io">
-      <p><strong>Visit <a href="https://ictg.github.io/" target="_blank">ictg.github.io</a></strong></p>
+<!-- WorkSection -->
+<div class="w3-container" style="padding:128px 16px" id="work">
+  <h3 class="w3-center">OUR WORK</h3>
+  <p class="w3-center w3-large">What we've done for people</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6">
+      <img src="/w3images/tech_mic.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A microphone">
     </div>
-    <div class="w3-container w3-half">
-      <p><strong>Made With WordPress</a></strong></p>
-      <img src="b.sly-example-2.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="ai.2ix.ch">
-      <p><strong>Visit <a href="https://ai.2ix.ch/" target="_blank">ai.2ix.ch</a></strong></p>
+    <div class="w3-col l3 m6">
+      <img src="/w3images/tech_phone.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A phone">
     </div>
+    <div class="w3-col l3 m6">
+      <img src="/w3images/tech_drone.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A drone">
     </div>
-      <center><a href="#contact" class="w3-button w3-green w3-padding-large w3-large w3-margin-top w3-hover-opacity-off">Contact Us</a></center>
+    <div class="w3-col l3 m6">
+      <img src="/w3images/tech_sound.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Soundbox">
+    </div>
+  </div>
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="/w3images/tech_tablet.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tablet">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="/w3images/tech_camera.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A camera">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="/w3images/tech_typewriter.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A typewriter">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="/w3images/tech_tableturner.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tableturner">
+    </div>
+  </div>
 </div>
-</div>
-  <!-- Modal for full size images on click-->
+<!-- ModalFullSizeImagesOnClick-->
 <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
   <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
   <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
@@ -142,73 +167,61 @@ body, html {
     <p id="caption" class="w3-opacity w3-large"></p>
   </div>
 </div>
-<!-- Skills -->
-<div class="w3-container w3-padding-32">
+<!-- SkillsSection -->
+<div class="w3-container w3-light-grey w3-padding-64">
   <div class="w3-row-padding">
     <div class="w3-col m6">
-      <h3><strong>WordPress Developer</strong></h3>
-      <p>Cares for Usability, CMS, Media Management, W3C Standards, Installation, Security, Themes, Plugins, APIs, Extensions & More.</p>
-      <h3><strong>SEO | Search Engine Optimization</strong></h3>
-      <p>Website Analysis, Keyword Research, SEO Campaign, Content, Linkbuilding. Following Webmaster Guidlines of Google.</p>
-      <h3><strong>Artificial intelligence</strong></h3>
-      <p>Knowledge Representation, Machine Learning, Cognitive Ai.</p>
-      <h3><strong><a href="https://developers.google.com/speed/pagespeed/insights/?hl=de&url=https%3A%2F%2Fbslyio.github.io&tab=desktop" target="_blank">PageSpeed Insights</a></strong></h3>
+      <h3>Our Skills.</h3>
+      <p>More Content Coming Soon. Visit Us Again, To See More Content At b.sly.io</p>
+      <p>More Content Coming Soon. Visit Us Again, To See More Content At b.sly.io</p>
     </div>
     <div class="w3-col m6">
-      <p><center><a href="https://www.meetup.com/de-DE/gdg-berlin/members/303065609/" target="_blank"><img src="/Google-Developers.png" width="250"></a></center></p><br>
-      <p><center><a href="https://github.com/bslyio" target="_blank"><img src="GitHub-Developer.png" width="200"></a></center></p><br>
-      <p><center><a href="https://www.w3.org/community/aikr/wiki/User:Ictg" target="_blank"><img src="/W3C-Member.png" width="200"></a></center></p>
+      <p class="w3-wide"><i class="fa fa-camera w3-margin-right"></i>Photography</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:90%">90%</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i>Web Design</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:85%">85%</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-photo w3-margin-right"></i>Photoshop</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:75%">75%</div>
       </div>
     </div>
   </div>
 </div>
-<!-- Contact -->
-<div class="w3-container w3-indigo" style="padding:64px 16px" id="contact">
-  <h3 class="w3-center">Contact</h3>
+<!-- ContactSection -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
     <p><center><font size="5"><a href="tel:+31684153347"><strong>Call</a></strong></font></p></center>
     <p><center></i><font size="5"><a href="https://wa.me/31684153347?text=b.sly.io" target="_blank"><strong>WhatsApp</strong></a></font></center></p>
     <p><center><font size="5"><a href="mailto:b.sly.int@gmail.com" target="_blank"><strong>Mail</strong></a></font></center></p>
 <!-- Footer -->
-<footer class="w3-center w3-indigo w3-padding-16">
-<!-- Legal Disclosure -->
- <details>
-  <summary>Legal Disclosure</summary>
-  <h2>Legal Disclosure</h2>
-
-<p><strong>Information in accordance with Section 5 TMG</strong></p>
-
-<p>Eric Lee<br>Görlitzer Straße 64<br>Bezirk Friedrichshain-Kreuzberg<br>10997 Berlin</p>
-
-<h2>Contact Information</h2>
-
-<p>Telephone: 0031684153347<br>E-Mail: b.sly.int@gmail.com<br>Internet address: b.sly.io</p>
-
-<h2>Disclaimer</h2>
-
-<p><strong>Accountability for content<br></strong>The contents of our pages have been created with the utmost care. However, we cannot guarantee the contents&#8217; accuracy, completeness or topicality. According to statutory provisions, we are furthermore responsible for our own content on these web pages. In this matter, please note that we are not obliged to monitor the transmitted or saved information of third parties, or investigate circumstances pointing to illegal activity. Our obligations to remove or block the use of information under generally applicable laws remain unaffected by this as per §§ 8 to 10 of the Telemedia Act (TMG).</p>
-
-<p><strong>Accountability for links<br></strong>Responsibility for the content of external links (to web pages of third parties) lies solely with the operators of the linked pages. No violations were evident to us at the time of linking. Should any legal infringement become known to us, we will remove the respective link immediately.</p>
-
-<p><strong>Copyright<br></strong>Our web pages and their contents are subject to German copyright law. Unless expressly permitted by law, every form of utilizing, reproducing or processing works subject to copyright protection on our web pages requires the prior consent of the respective owner of the rights. Individual reproductions of a work are only allowed for private use. The materials from these pages are copyrighted and any unauthorized use may violate copyright laws.</p>
-
-</details>
-<!-- END Legal Disclosure -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
   <p><a href="https://facebook.com/b.sly.io" target="_blank">Facebook</a> | <a href="https://twitter.com/bslyio" target="_blank">Twitter</a> | <a href="https://youtube.com/channel/UCe3WuPfhqAtFedCTUD8VOEA" target="_blank">YouTube</a></p>
   <p><a href="https://instagram.com/b.sly.io/" target="_blank">Instagram</a> | <a href="https://linkedin.com/in/bsly/" target="_blank">LinkedIn</a></p>
   <p>Copyright © 2020 b.sly<a href="https://www.w3schools.com/w3css/default.asp" target="_blank"></a></p>
   <a href="#home" class="w3-button w3-green">To The top</a>
 </footer>
 <script>
-// Modal Image Gallery
+// ModalImageGallery
 function onClick(element) {
   document.getElementById("img01").src = element.src;
   document.getElementById("modal01").style.display = "block";
   var captionText = document.getElementById("caption");
   captionText.innerHTML = element.alt;
 }
-
-
-// Toggle between showing and hiding the sidebar when clicking the menu icon
+// ToggleBetweenShowingHidingSidebarWhenClickingMenuIcon
 var mySidebar = document.getElementById("mySidebar");
 
 function w3_open() {
@@ -218,8 +231,7 @@ function w3_open() {
     mySidebar.style.display = 'block';
   }
 }
-
-// Close the sidebar with the close button
+// CloseTheSidebarWithTheCloseButton
 function w3_close() {
     mySidebar.style.display = "none";
 }
