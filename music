@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<!-- Template: b.sly ONE by Eric Lee-->
+<html>
+<title>b.sly | b.sly.io</title>
+<meta name="description" content="b.sly | b.sly.io">
+<meta name="keywords" content="b.sly, b.sly.io">
+<meta name="robots" content="index, follow">
+<meta name="copyright" content="b.sly | b.sly.io">
+<meta name="language" content="EN">
+<meta name="author" content="b.sly | b.sly.io">
+<meta name="creationdate" content="01-01-2017">
+<meta name="distribution" content="global">
+<meta name="rating" content="general">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<head>
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Ubuntu", Ubuntu}
+body, html {
+  height: 100%;
+  line-height: 1.8;
+</style>
+<style>
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("b.sly.gif");
+  min-height: 100%;
+}
+.w3-bar .w3-button {
+  padding: 16px;
+}
+/* Solid border */
+hr.solid {
+  border-top: 1px solid #fff;
+}
+</style>
+</head>
+<body>
+<!-- Navbar  -->
+<div class="w3-top">
+  <div class="w3-bark w3-card" id="myNavbar">
+    <strong><a href="https://bslyio.github.io/" class="w3-xlarge w3-bar-item w3-button w3-wide">B.SLY.IO</a></strong>
+    <!-- RightSidedNavbarLinks -->
+    <div class="w3-right w3-hide-small">
+      <a href="#home" class="w3-bar-item w3-button w3-wide"><strong>HOME</strong></a>
+      <a href="#about" class="w3-bar-item w3-button w3-wide"><strong>ABOUT</strong></a>
+      <a href="#work" class="w3-bar-item w3-button w3-wide"><strong>WORK</strong></a>
+      <a href="#contact" class="w3-bar-item w3-button w3-wide"><strong>CONTACT</strong></a>
+    </div>
+    <!-- HideRightFloatedLinksOnSmallScreensAndReplaceThemWithMenuIcon -->
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+<!-- SidebarOnSmallScreensWhenClickingTheMenuIcon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+<a href="#home" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
+<a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+<!-- HeaderWithFullHeightImage -->
+<header class="bgimg-1 w3-display-container" id="home">
+  <div class="w3-display-left w3-text-black" style="padding:64px">
+    <span class="w3-jumbo w3-hide-small">b.sly | Music</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">b.sly | b.sly.io</span><br>
+    <span class="w3-xlarge">Change Everything</span><br>
+    <span class="w3-xxlarge">Be Sly</span><br>
+    <p><a href="#about" class="w3-button w3-black w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">ABOUT B.SLY</a></p>
+  </div>
+</header>
+<!-- About -->
+<div class="w3-container w3-indigo" style="padding:24px 16px" id="about">
+  <br>
+  <h3 class="w3-center">ABOUT B.SLY</h3>
+  <div class="w3-row w3-center">
+      <h3 id="songs-by-eric-lee">Songs By Eric Lee</h3>
+<p>Free Download, Share &amp; Adapt</p>
+<p><strong>Adam</strong></p>
+<audio src="/Adam.mp3" controls="" autoplay=""></audio>
+<p><strong>The Hague 1</strong></p>
+<audio src="/The-Hague-1.mp3" controls=""></audio>
+<p><strong>The Hague 2</strong></p>
+<audio src="/The-Hague-2.mp3" controls=""></audio>
+<p><strong>The Hague 3</strong></p>
+<audio src="/The-Hague-3.mp3" controls=""></audio>
+<p><strong>Unknown Object</strong></p>
+<audio src="/Unknown-Object.mp3" controls=""></audio>
+<p><strong>Diversity</strong></p>
+<audio src="/Diversity.mp3" controls=""></audio>
+<p><strong>Meditation</strong></p>
+<audio src="/Meditation.mp3" controls=""></audio>
+<p><strong>Future</strong></p>
+<audio src="/Future.mp3" controls=""></audio>
+  </div>
+</div>
+
+<!-- Contact -->
+<div class="w3-container w3-indigo" style="padding:24px 16px" id="contact">
+  <br>
+  <h3 class="w3-center">CONTACT</h3>
+    <p><center><font size="5"><a href="tel:+31684153347"><strong>Call</a></strong></font></center></p>
+    <p><center><font size="5"><a href="https://wa.me/31684153347?text=b.sly.io" target="_blank"><strong>WhatsApp</strong></a></font></center></p>
+    <p><center><font size="5"><a href="https://m.me/b.sly.io" target="_blank"><strong>Messenger</strong></a></font></center></p>
+    <p><center><font size="5"><a href="mailto:b.sly.int@gmail.com" target="_blank"><strong>Mail</strong></a></font></center></p><br>
+  <h3 class="w3-center">FIND US</h3>
+    <p><center><font size="5"><a href="https://facebook.com/b.sly.io" target="_blank">Facebook</a></font><center></p>
+    <p><center><font size="5"><a href="https://twitter.com/bslyio" target="_blank">Twitter</a></font><center></p>
+    <p><center><font size="5"><a href="https://youtube.com/channel/UCe3WuPfhqAtFedCTUD8VOEA" target="_blank">YouTube</a></font><center></p>
+    <p><center><font size="5"><a href="https://instagram.com/b.sly.io/" target="_blank">Instagram</a></font><center></p>
+    <p><center><font size="5"><a href="https://linkedin.com/in/bsly/" target="_blank">LinkedIn</a></font><center></p>
+    <p><center><font size="5"><a href="https://minds.com/bsly/" target="_blank">Minds</a></font><center></p>
+    <p><center><font size="5"><a href="https://medium.com/@b.sly" target="_blank">Medium</a></font><center></p>
+    <p><center><font size="5"><a href="https://bsly.livejournal.com/" target="_blank">LiveJournal</a></font><center></p><br>
+<a href="#home" class="w3-button w3-green">To The top</a>
+<!-- Footer -->
+<div class="w3-container w3-center w3-padding-16">
+ <details>
+  <summary><font size="4">Legal Disclosure</font></font></summary>
+<p><h4>Information in accordance with Section 5 TMG</h4></p>
+<p>Eric Lee<br>Görlitzer Straße 64<br>Bezirk Friedrichshain-Kreuzberg<br>10997 Berlin</p>
+<h4>Contact Information</h4>
+<p>Telephone: 0031684153347<br>E-Mail: b.sly.int@gmail.com<br>Internet address: b.sly.io</p>
+<h4>Disclaimer</h4>
+<h4>Accountability for content</h4>
+<p>The contents of our pages have been created with the utmost care. However, we cannot guarantee the contents&#8217; accuracy, completeness or topicality. According to statutory provisions, we are furthermore responsible for our own content on these web pages. In this matter, please note that we are not obliged to monitor the transmitted or saved information of third parties, or investigate circumstances pointing to illegal activity. Our obligations to remove or block the use of information under generally applicable laws remain unaffected by this as per §§ 8 to 10 of the Telemedia Act (TMG).</p>
+<h4>Accountability for links</h4>
+<p>Responsibility for the content of external links (to web pages of third parties) lies solely with the operators of the linked pages. No violations were evident to us at the time of linking. Should any legal infringement become known to us, we will remove the respective link immediately.</p>
+<h4>Copyright</h4>
+<p>Our web pages and their contents are subject to German copyright law. Unless expressly permitted by law, every form of utilizing, reproducing or processing works subject to copyright protection on our web pages requires the prior consent of the respective owner of the rights. Individual reproductions of a work are only allowed for private use. The materials from these pages are copyrighted and any unauthorized use may violate copyright laws.</p>
+</details>
+<p>Copyright © 2020 b.sly<a href="https://www.w3schools.com/w3css/default.asp" target="_blank"></a></p>
+</footer>
+</div>
+<script>
+// ModalImageGallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+// ToggleBetweenShowingHidingSidebarWhenClickingMenuIcon
+var mySidebar = document.getElementById("mySidebar");
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+// CloseTheSidebarWithTheCloseButton
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+</body>
+</html>
