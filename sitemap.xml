@@ -4,14 +4,15 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+<!-- created by b.sly -->
+      
 <url>
   <loc>https://bslyio.github.io/</loc>
   <loc>https://bslyio.github.io/music</loc>
+  <loc>https://bslyio.github.io/#about</loc>
+  <loc>https://bslyio.github.io/#work</loc>
+  <loc>https://bslyio.github.io/#contact</loc>
   <lastmod>2020-02-28T11:24:34+00:00</lastmod>
 </url>
-
 
 </urlset>
